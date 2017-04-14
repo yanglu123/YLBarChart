@@ -13,6 +13,8 @@
 		8146A9981EA0A95B00D4ECA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8146A9961EA0A95B00D4ECA1 /* Main.storyboard */; };
 		8146A99A1EA0A95B00D4ECA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8146A9991EA0A95B00D4ECA1 /* Assets.xcassets */; };
 		8146A99D1EA0A95B00D4ECA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8146A99B1EA0A95B00D4ECA1 /* LaunchScreen.storyboard */; };
+		8146A9A71EA0ABC700D4ECA1 /* BarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8146A9A61EA0ABC700D4ECA1 /* BarChartView.m */; };
+		8146A9AA1EA0ABF900D4ECA1 /* MarkDownView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8146A9A91EA0ABF900D4ECA1 /* MarkDownView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		8146A9991EA0A95B00D4ECA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8146A99C1EA0A95B00D4ECA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8146A99E1EA0A95B00D4ECA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8146A9A51EA0ABC700D4ECA1 /* BarChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarChartView.h; sourceTree = "<group>"; };
+		8146A9A61EA0ABC700D4ECA1 /* BarChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarChartView.m; sourceTree = "<group>"; };
+		8146A9A81EA0ABF900D4ECA1 /* MarkDownView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkDownView.h; sourceTree = "<group>"; };
+		8146A9A91EA0ABF900D4ECA1 /* MarkDownView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkDownView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 		8146A98C1EA0A95B00D4ECA1 /* BarChart */ = {
 			isa = PBXGroup;
 			children = (
+				8146A9A41EA0AB7C00D4ECA1 /* CustomBarChart */,
 				8146A9901EA0A95B00D4ECA1 /* AppDelegate.h */,
 				8146A9911EA0A95B00D4ECA1 /* AppDelegate.m */,
 				8146A9931EA0A95B00D4ECA1 /* ViewController.h */,
@@ -77,6 +84,17 @@
 				8146A98E1EA0A95B00D4ECA1 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8146A9A41EA0AB7C00D4ECA1 /* CustomBarChart */ = {
+			isa = PBXGroup;
+			children = (
+				8146A9A51EA0ABC700D4ECA1 /* BarChartView.h */,
+				8146A9A61EA0ABC700D4ECA1 /* BarChartView.m */,
+				8146A9A81EA0ABF900D4ECA1 /* MarkDownView.h */,
+				8146A9A91EA0ABF900D4ECA1 /* MarkDownView.m */,
+			);
+			path = CustomBarChart;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +172,8 @@
 				8146A9951EA0A95B00D4ECA1 /* ViewController.m in Sources */,
 				8146A9921EA0A95B00D4ECA1 /* AppDelegate.m in Sources */,
 				8146A98F1EA0A95B00D4ECA1 /* main.m in Sources */,
+				8146A9AA1EA0ABF900D4ECA1 /* MarkDownView.m in Sources */,
+				8146A9A71EA0ABC700D4ECA1 /* BarChartView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
